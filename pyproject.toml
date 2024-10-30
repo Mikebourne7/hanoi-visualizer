@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hanoi-visualizer"
+version = "0.1.0"
+description = "Tower of Hanoi move solver and interactive animation"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+gui = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+hanoi = "hanoi_visualizer.__main__:main"
