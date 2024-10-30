@@ -13,6 +13,8 @@ python -m pip install .
 hanoi 3
 ```
 
+You can also download the installable wheel from the [v0.1.0 release](https://github.com/Mikebourne7/hanoi-visualizer/releases/tag/v0.1.0) and pass the downloaded file to `python -m pip install`.
+
 The CLI prints the seven moves for three disks. It runs with Python's standard library.
 
 To open the animation on a machine with a graphical desktop:
